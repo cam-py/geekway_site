@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Geek Way Academy</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/Oxygen-Regular.ttf" />
+    <link rel="stylesheet" type="text/css" href="fonts/static/Lora-Regular.ttf"
+  </head>
+  <body>
+    <header>
+      <nav id="header-nav" class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <a
+              href="./index.html"
+              class="float-start d-none d-md-block d-lg-block"
+            >
+              <div id="logo-img" alt="Logo image"></div>
+            </a>
+
+            <div class="navbar-brand">
+              <a href="./index.html"> </a>
+              <p>
+                <img
+                  src="./images/secplus-logo-black.png"
+                  alt="Security+ logo"
+                  style="height: 35px"
+                />
+              </p>
+            </div>
+
+            <button
+              type="button"
+              class="navbar-toggler  d-block d-sm-none d-sm-block"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapsable-nav"
+              aria-expanded="false"</button><!--for screen readers-->
+              <!--for screen readers-->
+              <span class="visually-hidden">Toggle navigation</span
+              ><!--sr-only (screen reader only does not up)-->
+              <span class="navbar-toggler-icon  d-block d-sm-none d-sm-block"></span>
+            </button>
+          </div>
+          
+          <div id="collapsable-nav" class="collapse navbar-collapse justify-content-end">
+            <ul id="nav-list" class="nav navbar-nav me-auto mb-2 mb-lg-0">
+              <!--Replaced navbar-right with me-auto(margin-end !important) pulls nav menu tor right-->
+              <li>
+                <a href="menu-categories.html">
+                  <span><img src="./js/node_modules/bootstrap-icons/icons/door-open.svg"></span><br class="d-none d-sm-block"> Login</a>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span><img src="./js/node_modules/bootstrap-icons/icons/book-half.svg"></span><br class="d-none d-sm-block"> Classes</a>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span><img src="./js/node_modules/bootstrap-icons/icons/motherboard-fill.svg"></span><br class="d-none d-sm-block"> Services</a>
+                </a>
+              </li>
+              <li id="phone" class=hidden-xs"">
+                <a href="tel:240-440-9243">
+                  <span>240-440-9243</span>
+                </a>
+                  <div>* 24/7 Customer Care</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+  </body>
+
+  <!--jQuery (Bootstrap JS plugins depend on it)-->
+  <script src="js/jquery-3.6.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</html>

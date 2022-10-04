@@ -1,0 +1,72 @@
+html {
+  font-size: 16px;
+  color: #fff;
+  background-color: #61122f;
+  font-family: Oxygen-Regular, sans-serif;
+}
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+  height: 230px;
+}
+
+#logo-img {
+  background: url("../images/geekwayLogo_transp.png") no-repeat;
+  width: 485px;
+  height: 161px;
+  margin: 10px 15px 10px 0;
+  /*border: 1px solid black;*/
+}
+
+.navbar-brand {
+  position: relative;
+  top: 30px;
+  left: -130px;
+  padding-top: 25px;
+}
+
+.navbar-brand h1 {
+  /*company name*/
+  font-family: "Lora";
+}
+
+.navbar-toggler {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+#nav-list {
+  margin-top: 5px;
+}
+#nav-list a {
+  position: relative;
+  color: #951c49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+#phone {
+  margin-top: 5px;
+}
+#phone a {
+  /* Phone number */
+  text-align: right;
+  padding-bottom: 0;
+}
+#phone div {
+  color: #557c3e;
+  text-align: right;
+  padding-right: 15px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid #61122f;
+}
+.navbar-header button.navbar-toggle{
+  clear: both;
+}
